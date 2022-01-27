@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+   
+}
+header,footer{
+    height: 150px;
+    border: 1px solid black;
+    border-collapse: collapse;
+   clear:left;
+   padding:50px
+}
+
+section{height: 300px;
+    width: 33.3333%;
+    border: 1px solid black;
+    float: left;
+   }
+    
+ div{
+    height: 300px;
+    width: 50%;
+    border: 1px solid black;
+    float: left;
+    padding: 50px;
+   }
+
+   .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
